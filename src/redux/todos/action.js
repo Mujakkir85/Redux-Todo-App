@@ -4,7 +4,6 @@ export const added = (todoText) =>{
     return{
         type: ADDED,
         payload: todoText
-
     }
 }
 

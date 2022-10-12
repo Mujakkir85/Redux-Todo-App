@@ -27,7 +27,7 @@ const reducer = (state = initialState, action) => {
                  }
                  return {
                      ...todo,
-                     completed: !todo.completed
+                     completed: !todo.completed  // have to learn this issue
                  }
              });
 
