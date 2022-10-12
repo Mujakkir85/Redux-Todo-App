@@ -15,7 +15,7 @@ export const toggled = (todoId) =>{
     }
 }
 
-export const colorselected = (todoId, color) => {
+export const colorSelected = (todoId, color) => {
     return{
         type: COLORSELECTED,
         payload: {
@@ -27,21 +27,21 @@ export const colorselected = (todoId, color) => {
         }
     }
 }
- 
+
 export const deleted = (todoId) =>{
     return{
         type: DELETED,
-        playload: todoId
+        payload: todoId
     }
 }
 
-export const allcompleted = () =>{
+export const allCompleted = () =>{
     return{
         type: ALLCOMPLETED
     }
 }
 
-export const clearcompleted = () =>{
+export const clearCompleted = () =>{
     return{
         type: CLEARCOMPLETED
     }
